@@ -1,0 +1,29 @@
+{
+  "name": "overseasSDK",
+  "version": "0.1.0",
+  "summary": "A short description of overseasSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiaoyuting/overseasSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaoyuting": "479072483@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/xiaoyuting/overseasSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "vendored_frameworks": [
+    "overseasSDK/loginSDK.framework"
+  ],
+  "resource_bundles": {
+    "overseasSDK": [
+      "overseasSDK/Assets/*.bundle"
+    ]
+  }
+}

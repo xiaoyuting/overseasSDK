@@ -1,0 +1,6 @@
+framework module overseasSDK {
+  umbrella header "overseasSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

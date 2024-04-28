@@ -27,14 +27,20 @@ TODO: Add long description of the pod here.
   s.author           = { 'xiaoyuting' => '479072483@qq.com' }
   s.source           = { :git => 'https://github.com/xiaoyuting/overseasSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+# Pod库的构建设置排除arm64架构模拟器
+s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+# 主工程的构建设置排除arm64架构模拟器
+s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
-  s.source_files = 'overseasSDK/Classes/**/*'
+  #s.source_files = 'overseasSDK/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'overseasSDK' => ['overseasSDK/Assets/*.png']
-  # }
+    s.vendored_frameworks = ['overseasSDK/loginSDK.framework'] #自己的framework在工程中的路径
+   s.resource_bundles = {
+     'overseasSDK' => ['overseasSDK/Assets/*.bundle']
+   }
+
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

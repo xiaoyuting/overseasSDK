@@ -1,0 +1,16 @@
+PODS:
+  - overseasSDK (0.1.0)
+
+DEPENDENCIES:
+  - overseasSDK (from `../`)
+
+EXTERNAL SOURCES:
+  overseasSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  overseasSDK: 665cdc3ff07fdc807debc1d23bd4d51c6c00bd91
+
+PODFILE CHECKSUM: b87cc29c3e603adc8178edfd9216a07ed22730cf
+
+COCOAPODS: 1.15.2
