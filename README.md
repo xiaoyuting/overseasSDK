@@ -1,0 +1,29 @@
+# overseasSDK
+
+[![CI Status](https://img.shields.io/travis/xiaoyuting/overseasSDK.svg?style=flat)](https://travis-ci.org/xiaoyuting/overseasSDK)
+[![Version](https://img.shields.io/cocoapods/v/overseasSDK.svg?style=flat)](https://cocoapods.org/pods/overseasSDK)
+[![License](https://img.shields.io/cocoapods/l/overseasSDK.svg?style=flat)](https://cocoapods.org/pods/overseasSDK)
+[![Platform](https://img.shields.io/cocoapods/p/overseasSDK.svg?style=flat)](https://cocoapods.org/pods/overseasSDK)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+overseasSDK is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'overseasSDK'
+```
+
+## Author
+
+xiaoyuting, 479072483@qq.com
+
+## License
+
+overseasSDK is available under the MIT license. See the LICENSE file for more info.
