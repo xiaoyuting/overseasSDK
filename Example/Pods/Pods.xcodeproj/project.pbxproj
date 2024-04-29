@@ -16,7 +16,6 @@
 				490DD20E05B08F3C3B250E8C95FB7EDD /* PBXTargetDependency */,
 			);
 			name = overseasSDK;
-			productName = overseasSDK;
 		};
 /* End PBXAggregateTarget section */
 
@@ -67,22 +66,22 @@
 		410AD06B1EFB770BFA18741348E09051 /* loginSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = loginSDK.framework; path = overseasSDK/loginSDK.framework; sourceTree = "<group>"; };
 		452693CC41BB15C3E90C7A37A4CA6501 /* Pods-overseasSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-overseasSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		6271927723EBC9E2EAC14E1FC30AB3E1 /* Pods-overseasSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-overseasSDK_Example"; path = Pods_overseasSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DC5F949FEF1852EFE6C5DD6DDB8E193 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6DC5F949FEF1852EFE6C5DD6DDB8E193 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		744533FA8EA13DB7A39B371EA1FF8C21 /* Pods-overseasSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-overseasSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7CBE4A88FBB9B2B1B93AB0CF11C380A2 /* overseasSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = overseasSDK.release.xcconfig; sourceTree = "<group>"; };
-		84CE0DD1C45295844DF9FA9C4DC6BB9E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		84CE0DD1C45295844DF9FA9C4DC6BB9E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8C1CE595565D68A273F909B6D6CA7BA3 /* Pods-overseasSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-overseasSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8DDC3FC8F627351D27B6FBE47F717AA2 /* Pods-overseasSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-overseasSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9B588B879F3AEAB75DB044FA4CBD9DB1 /* login.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = login.bundle; path = overseasSDK/Assets/login.bundle; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0F9E1F739A4AAB34F63F1096E7CDA3E /* Pods-overseasSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-overseasSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		A6311F11361413FA3FA2E84F73D87CFB /* Pods-overseasSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-overseasSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AFC366C7BA68DC46DBBDDD1928F927D4 /* Pods-overseasSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-overseasSDK_Example-resources.sh"; sourceTree = "<group>"; };
 		AFC751FC85154FB5AA00ED4E741113A5 /* Pods-overseasSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-overseasSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B157A5A42B3E493B589B6E5E0D69AA81 /* Pods-overseasSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-overseasSDK_Example.modulemap"; sourceTree = "<group>"; };
 		BD8EC057F3CDB0ADABDB06EA97F5705C /* Pods-overseasSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-overseasSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C718F8859A3B61DFF784C40629B72B1F /* overseasSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = overseasSDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		C718F8859A3B61DFF784C40629B72B1F /* overseasSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = overseasSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D0EDAD3C0862E2E7EA4529CDAD6F3BC3 /* overseasSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = overseasSDK.debug.xcconfig; sourceTree = "<group>"; };
 		FAF8E8C5E424846940311B0E5EB29FCA /* overseasSDK-overseasSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "overseasSDK-overseasSDK"; path = overseasSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE3A6536D88B97E612AFE6D6A597412B /* Pods-overseasSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-overseasSDK_Example-dummy.m"; sourceTree = "<group>"; };
@@ -576,7 +575,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

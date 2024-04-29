@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  overseasSDK: 665cdc3ff07fdc807debc1d23bd4d51c6c00bd91
+  overseasSDK: d811a58eee6e116867d38256039caca81af35d3d
 
 PODFILE CHECKSUM: b87cc29c3e603adc8178edfd9216a07ed22730cf
 

@@ -15,6 +15,12 @@
     "git": "https://github.com/xiaoyuting/overseasSDK.git",
     "tag": "0.1.0"
   },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
   "platforms": {
     "ios": "12.0"
   },
