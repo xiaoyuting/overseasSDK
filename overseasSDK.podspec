@@ -35,8 +35,8 @@ s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.ios.deployment_target = '12.0'
 
   #s.source_files = 'overseasSDK/Classes/**/*'
-   s.source_files = 'overseasSDK/run'
-   s.source_files = 'overseasSDK/upload-symbols'
+   s.source_files = 'overseasSDK/File/run'
+    
    s.vendored_frameworks = ['overseasSDK/loginSDK.framework'] #自己的framework在工程中的路径
    s.resource_bundles = {
      'Resources' => ['overseasSDK/Assets/*.bundle']
