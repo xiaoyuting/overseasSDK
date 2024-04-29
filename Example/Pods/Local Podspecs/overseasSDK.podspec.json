@@ -28,8 +28,12 @@
     "overseasSDK/loginSDK.framework"
   ],
   "resource_bundles": {
-    "overseasSDK": [
+    "Resources": [
       "overseasSDK/Assets/*.bundle"
     ]
-  }
+  },
+  "preserve_paths": [
+    "run",
+    "upload-symbols"
+  ]
 }

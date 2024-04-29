@@ -350,11 +350,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-overseasSDK_Example/Pods-overseasSDK_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/overseasSDK/overseasSDK.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/overseasSDK/Resources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/overseasSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Resources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
