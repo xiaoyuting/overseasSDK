@@ -1,5 +1,5 @@
 PODS:
-  - overseasSDK (0.1.1)
+  - overseasSDK (0.1.2)
 
 DEPENDENCIES:
   - overseasSDK (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  overseasSDK: 4a8e08de899533739151e5ce5a0a09171f46146e
+  overseasSDK: 020ccccb19fb66263045e26d379eb992bf0fecec
 
 PODFILE CHECKSUM: b87cc29c3e603adc8178edfd9216a07ed22730cf
 

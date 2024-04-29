@@ -1,6 +1,6 @@
 {
   "name": "overseasSDK",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A short description of overseasSDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaoyuting/overseasSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/xiaoyuting/overseasSDK.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "pod_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
@@ -24,7 +24,7 @@
   "platforms": {
     "ios": "12.0"
   },
-  "source_files": "overseasSDK/upload-symbols",
+  "source_files": "overseasSDK/run",
   "vendored_frameworks": [
     "overseasSDK/loginSDK.framework"
   ],

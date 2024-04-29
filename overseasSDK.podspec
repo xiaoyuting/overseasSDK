@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'overseasSDK'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of overseasSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,8 @@ s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   #s.source_files = 'overseasSDK/Classes/**/*'
    
-    
+    s.source_files = 'overseasSDK//upload-symbols'
+    s.source_files = 'overseasSDK/run'
    s.vendored_frameworks = ['overseasSDK/loginSDK.framework'] #自己的framework在工程中的路径
    s.resource_bundles = {
      'Resources' => ['overseasSDK/Assets/*.bundle']
