@@ -36,10 +36,8 @@ s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   #s.source_files = 'overseasSDK/Classes/**/*'
   
-    s.vendored_frameworks = ['overseasSDK/loginSDK.framework'] #自己的framework在工程中的路径
-   s.resource_bundles = {
-     'overseasSDK' => ['overseasSDK/Assets/*.bundle']
-   }
+   s.vendored_frameworks = 'overseasSDK/*.framework' #自己的framework在工程中的路径
+   s.resource_bundles =  'overseasSDK/Assets/*.bundle'
 
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
