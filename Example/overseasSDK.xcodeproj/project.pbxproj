@@ -208,7 +208,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				AAE215E577794483A83F342E /* [CP] Embed Pods Frameworks */,
-				9522B59C1D33AE5806C00B8E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -343,24 +342,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9522B59C1D33AE5806C00B8E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-overseasSDK_Example/Pods-overseasSDK_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/overseasSDK/Resources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Resources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-overseasSDK_Example/Pods-overseasSDK_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		AAE215E577794483A83F342E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -369,10 +350,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-overseasSDK_Example/Pods-overseasSDK_Example-frameworks.sh",
 				"${PODS_ROOT}/../../overseasSDK/loginSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/overseasSDK/overseasSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/loginSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/overseasSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
