@@ -17,6 +17,8 @@ overseasSDK is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
+source 'https://github.com/xiaoyuting/overseasSDKSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 pod 'overseasSDK'
 ```
 
