@@ -404,8 +404,58 @@ style 1 至 5
  name 为firebase 事件的名称
  */
 +(void)remoteConfigName:(NSString *)name Success:(void(^)(NSString *))success Failure:(void(^)(NSError*))failure;
-
+//当前IP
 +(void)currentIP:(void(^)(NSDictionary * ))ipdic;
+
+/**
+ 设备型号
+
+@return 设备型号
+*/
++(NSString *)getPhoneModel;
+/**
+ 获取随机字符串（字符串包含字母，数字）
+ 
+ @param length 字符串长度
+ @return 随机数
+ */
++(NSString*)getRandomStr:(int)length;
+
+
+/**
+  获取versionCode
+
+ @return 返回游戏当前
+ */
++(NSString *)getVersionCode;
+
+
+
+/**
+获取手机系统
+
+@return 手机系统
+*/
++(NSString *)phoneVersion;
+//系统
++(NSString *)phoneSystemName ;
+/**
+返回当前网络
+*/
++ (NSString *)getNetType;
+
+
+// 获取运营商信息
++ (NSString *)getOperatorInfomation;
+
+//获取cpu型号
++(NSString *)cpuType;
+
+//设备总内存
++(NSString *) getTotalMemory  ;
+
+// 获取设备可用内存
++(NSString *) getFreeMemory ;
 @end
 
 NS_ASSUME_NONNULL_END
