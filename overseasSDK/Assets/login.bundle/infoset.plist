@@ -7,7 +7,7 @@
 	<key>client_id</key>
 	<string>QTJwWEJMUjdtZjB0Uk1BWGxmd0U6MTpjaQ</string>
 	<key>loginType</key>
-	<string>2</string>
+	<string>0</string>
 	<key>requestUrl</key>
 	<string></string>
 	<key>consumerSecret</key>
@@ -23,9 +23,9 @@
 	<key>channel</key>
 	<string>GM</string>
 	<key>gameid</key>
-	<string>1700</string>
+	<string>1831</string>
 	<key>GGkClientID</key>
-	<string>726483388833-nejr29g354f0p3sieg18gmehkhljuerv.apps.googleusercontent.com</string>
+	<string>759964688240-5q2jbsv7mn3bup1g69hekb97oii4l8qh.apps.googleusercontent.com</string>
 	<key>appsFlyerDevKey</key>
 	<string>g7ZP9TqQ4S8AF9zeQD9Koe</string>
 	<key>appleAppID</key>
@@ -37,7 +37,7 @@
 	<key>IronsourceAppKey</key>
 	<string>bf464905</string>
 	<key>issueVersion</key>
-	<string>1700049</string>
+	<string>1831001</string>
 	<key>iconControl</key>
 	<string>1</string>
 	<key>admobInit</key>
